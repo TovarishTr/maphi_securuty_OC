@@ -1,0 +1,86 @@
+    1  sudo useradd -u 1234 -G students -m -s /bin/bash user1
+    2  sudo passwd user1
+    3  sudo chage -M 90 user1
+    4  id user1
+    5  sudo chage -1 user1
+    6  sudo chage -l user1
+    7  sudo find / -perm -4000 -type f 2>/dev/null
+    8  ps -eo ruid,euid,comm | awk '$1 != 0 && $2 == 0'
+    9  su - user1
+   10  sudo chmod u+s /home/user1/my_cat
+   11  ls -la  /home/user1/my_cat
+   12  su - userq
+   13  su - user1
+   14  sudo cp /bin/cat /tmp/my_cat
+   15  sudo chmod u+s /tmp/my_cat
+   16  su - user1
+   17  sudo cp /bin/cat  /usr/local/bin/my_cat
+   18  sudo chmod u+s /user1/local/bin/my_cat
+   19  sudo chmod u+s /usr/local/bin/my_cat
+   20  sudo chmod user1:user1 /usr/local/bin/my_cat
+   21  exit
+   22  ls -l
+   23  cd /home/mike/Документы
+   24  sudo mkdir /test1
+   25  ls -l
+   26  sudo mkdir /home/mike/Документы/test1
+   27  ls -l
+   28  sudo cp /bin/cat /home/mike/Документы/test1/my_cat
+   29  sudo chmod u+s /home/mike/Документы/test1/my_cat
+   30  sudo chmod user1:user1 /home/mike/Документы/test1/my_cat
+   31  sudo chown user1:user1 /home/mike/Документы/test1/my_cat
+   32  ls -la /home/mike/Документы/test1/my_cat 
+   33  su -user1
+   34  su - user1
+   35  sudo aa-status
+   36  mount | grep '/ ' 
+   37  sudo systemctl stop apparmor
+   38  su - user1
+   39  sestatus
+   40  getenforce
+   41  sudo setenforce 0
+   42  su - user1
+   43  cd
+   44  ls -l
+   45  cd /home/user1/
+   46  ls -la /home/user1/my_cat
+   47  ls -la /home/my_cat
+   48  su - user1
+   49  cd ./home/mike/Документы
+   50  cd /home/mike/Документы
+   51  ls -l
+   52  rm test1/
+   53  rm -l test1/
+   54  rm -r  test1/
+   55  sudo rm -r  test1/
+   56  cd
+   57  su - user1
+   58  ls
+   59  sudo chmod u+s /home/user1/my_cat
+   60  ls -la /home/user1/my_cat
+   61  ls -la /home/user1/
+   62  cd ./home/user1
+   63  ls -la /home/user1/my_cat
+   64  sudo ls -la /home/user1/my_cat
+   65  su - user1
+   66  sudo cp /bin/cat /home/user1/my_cat
+   67  sudo chown root:root /home/user1/my_cat
+   68  sudo chown u+s /home/user1/my_cat
+   69  sudo chown u + s /home/user1/my_cat
+   70  sudo chmod u + s /home/user1/my_cat
+   71  sudo chmod u+s /home/user1/my_cat
+   72  ls -ls /home/user1/my_cat
+   73  sudo chown root:user1 /home/user1/my_cat
+   74  sudo chown mike:user1 /home/user1/my_cat
+   75  sudo chmod u+s /home/user1/my_cat
+   76  ls -ls /home/user1/my_cat
+   77  sudo chown root:root /home/user1/my_cat
+   78  ls -ls /home/user1/my_cat
+   79  sudo ls -l /home/user1/my_cat
+   80  sudo chmod u+s /home/user1/my_cat
+   81  sudo ls -l /home/user1/my_cat
+   82  su - user1
+   83  which date
+   84  sudo visudo
+   85  su - user1
+   86  history > ~/history.out
