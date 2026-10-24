@@ -1,0 +1,8 @@
+  File: /home/user1
+  size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,2	Inode: 1704223     Links: 5
+Access: (0750/drwxr-x---)  Uid: ( 1234/   user1)   Gid: ( 1234/   user1)
+Access: 2026-09-14 20:41:18.108070192 +0300
+Modify: 2026-09-14 20:40:54.998436051 +0300
+Change: 2026-09-14 20:40:54.998436051 +0300
+ Birth: 2026-09-14 16:16:32.145016686 +0300
